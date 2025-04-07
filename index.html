@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>J's Sanctuary for 2</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: #fdfdfb;
+      color: #333;
+      line-height: 1.6;
+    }
+    header, section {
+      padding: 4rem 1.5rem;
+      max-width: 960px;
+      margin: auto;
+    }
+    h1, h2, h3 {
+      font-weight: 600;
+    }
+    .hero {
+      background: url('hero-main.jpg') center/cover no-repeat;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.2rem;
+      background: rgba(0,0,0,0.5);
+      padding: 1rem;
+      border-radius: 1rem;
+    }
+    .cta-button {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 1rem 2rem;
+      background-color: #333;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .features, .plan, .voices {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 2rem;
+      margin-top: 2rem;
+    }
+    .feature-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    .feature-list div {
+      background-color: #f5f5f5;
+      padding: 1rem;
+      border-radius: 6px;
+    }
+    .feature-list img {
+      width: 100%;
+      border-radius: 6px;
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 2rem;
+      background-color: #eee;
+    }
+    @media (max-width: 600px) {
+    .hero h1 {
+      font-size: 1.5rem;
+      padding: 0.8rem;
+    }
+    header, section {
+      padding: 2rem 1rem;
+    }
+    .cta-button {
+      padding: 0.75rem 1.5rem;
+      font-size: 0.9rem;
+    }
+    .feature-list div {
+      padding: 1rem 0.75rem;
+    }
+    .feature-list img {
+      height: auto;
+    }
+    h2 {
+      font-size: 1.4rem;
+    }
+    p, li {
+      font-size: 0.95rem;
+    }
+  }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>話さない時間が、いちばん心地よかった。</h1>
+    <a class="cta-button" href="#reserve">今月の予約状況を確認</a>
+  </header>
+
+  <section>
+    <img src="js-logo.png" alt="J'sロゴ" style="max-width: 180px; display: block; margin: 2rem auto;">
+    <h2>J's Sanctuary for 2とは</h2>
+    <p>サウナのあと、帰る場所を“整える空間”に変えました。2人だけのプライベートな時間を、移動も宿泊もすべて含めて提供する車です。</p>
+  </section>
+
+  <section class="features">
+    <h2>この体験の特徴</h2>
+    <div class="feature-list">
+      <div>
+        <img src="hero-main.jpg" alt="車内照明">
+        <strong>無言でも心地よい空間</strong><br>
+        クイーンベッドと間接照明で、音がなくても満たされる距離感。
+      </div>
+      <div>
+        <img src="review1.jpg" alt="外観使用例">
+        <strong>ととのいが続く導線</strong><br>
+        サウナから車へ、車から自然へ。切れ目のないリトリート体験。
+      </div>
+      <div>
+        <img src="review1.jpg" alt="使用中風景">
+        <strong>2人専用の設計</strong><br>
+        使いやすく、気を遣わず、感覚を共有できるための最適空間。
+      </div>
+    </div>
+  </section>
+
+  <section class="plan">
+    <h2>モデルプラン（1泊2日）</h2>
+    <ol>
+      <li>杉並で車両を受け取り、出発（夜でもOK）</li>
+      <li>好きなサウナへ（提携施設あり）</li>
+      <li>道の駅で車中泊、朝は自然の中でコーヒー</li>
+      <li>翌日もサウナを巡り、帰宅</li>
+    </ol>
+  </section>
+
+  <section class="plan" id="reserve">
+    <h2>料金・予約</h2>
+    <ul>
+      <li>平日24時間：<strong>22,000円（税込）</strong></li>
+      <li>週末・特定日：<strong>27,500円（税込）</strong></li>
+    </ul>
+    <p>※1日1組・月10組限定。予約は先着順となります。</p>
+    <a class="cta-button" href="https://lin.ee/IiAZYyG">LINEで予約する</a>
+  </section>
+
+  <section class="voices">
+    <h2>体験者の声</h2>
+    <img src="review1.jpg" alt="体験者の声" style="width:100%; border-radius:6px; margin-bottom:1rem;">
+    <blockquote>
+      「外の音がしても、2人の世界だけが静かだった。」<br>
+      「ととのいの余韻を持ったまま帰れるって、贅沢でした。」
+    </blockquote>
+  </section>
+
+  <footer>
+    &copy; 2025 J's Sanctuary for 2 ｜ すべての時間を“ととのい”に変える車
+  </footer>
+</body>
+</html>
